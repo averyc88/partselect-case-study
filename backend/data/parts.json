@@ -1,0 +1,781 @@
+[
+  {
+    "ps_number": "PS11752778",
+    "manufacturer_number": "WPW10321304",
+    "name": "Refrigerator Door Shelf Bin",
+    "brand": "Whirlpool",
+    "appliance": "refrigerator",
+    "category": "Trays & Shelves",
+    "price": 36.98,
+    "in_stock": true,
+    "description": "Genuine OEM door shelf bin for side-by-side refrigerators. Clear plastic with white trim, it attaches to the interior door and holds jars, bottles, and condiments. Also fits select KitchenAid, Maytag, and Amana models.",
+    "part_url": "https://www.partselect.com/PS11752778-Whirlpool-WPW10321304-Refrigerator-Door-Shelf-Bin.htm",
+    "compatible_models": ["WRS322FDAM02", "WRS321SDHZ"],
+    "symptoms": ["broken door bin", "cracked shelf", "door shelf won't stay", "missing door bin"],
+    "install": {
+      "difficulty": "Easy",
+      "time": "5 minutes",
+      "steps": [
+        "Open the refrigerator door fully to access the door bins.",
+        "Grip the old bin on both sides and lift it straight up to unhook it from the door rails.",
+        "Tilt the bin out and remove it.",
+        "Align the new bin with the door rails at the desired height.",
+        "Push the bin down until it clicks securely into place.",
+        "Tug gently to confirm it is locked in."
+      ]
+    }
+  },
+  {
+    "ps_number": "PS11752309",
+    "manufacturer_number": "WPW10321302",
+    "name": "Refrigerator Upper Door Shelf Bin",
+    "brand": "Whirlpool",
+    "appliance": "refrigerator",
+    "category": "Trays & Shelves",
+    "price": 41.49,
+    "in_stock": true,
+    "description": "Genuine OEM upper door bin for side-by-side refrigerators. Pairs with the lower door shelf bin (PS11752778) to complete the door storage set.",
+    "part_url": "https://www.partselect.com/PS11752309-Whirlpool-WPW10321302-Refrigerator-Upper-Door-Shelf-Bin.htm",
+    "compatible_models": ["WRS322FDAM02", "WRS321SDHZ"],
+    "symptoms": ["broken door bin", "cracked shelf", "missing door bin"],
+    "install": {
+      "difficulty": "Easy",
+      "time": "5 minutes",
+      "steps": [
+        "Open the refrigerator door fully.",
+        "Lift the old upper bin straight up off the door rails and remove it.",
+        "Align the new bin with the rails at the top position.",
+        "Press down until it clicks into place."
+      ]
+    }
+  },
+  {
+    "ps_number": "PS733947",
+    "manufacturer_number": "2198202",
+    "name": "Refrigerator Temperature Control Thermostat",
+    "brand": "Whirlpool",
+    "appliance": "refrigerator",
+    "category": "Thermostats & Controls",
+    "price": 28.46,
+    "in_stock": true,
+    "description": "OEM cold control thermostat that regulates the refrigerator's temperature by cycling the compressor. A common fix when the fridge is too warm or too cold.",
+    "part_url": "https://www.partselect.com/PS733947-Whirlpool-2198202-Refrigerator-Temperature-Control-Thermostat.htm",
+    "compatible_models": ["WRS321SDHZ"],
+    "symptoms": ["refrigerator too warm", "refrigerator too cold", "fridge not cooling", "compressor not running"],
+    "install": {
+      "difficulty": "Medium",
+      "time": "20 minutes",
+      "steps": [
+        "Unplug the refrigerator before beginning.",
+        "Locate the temperature control housing inside the fresh food compartment.",
+        "Remove the control knob and the housing cover screws.",
+        "Disconnect the wire leads and the capillary tube from the old thermostat.",
+        "Mount the new thermostat, routing the capillary tube the same way as the original.",
+        "Reconnect the wire leads, reattach the housing, and restore power."
+      ]
+    }
+  },
+  {
+    "ps_number": "PS429725",
+    "manufacturer_number": "2255113",
+    "name": "Refrigerator Water Inlet Valve",
+    "brand": "Whirlpool",
+    "appliance": "refrigerator",
+    "category": "Water & Ice",
+    "price": 49.95,
+    "in_stock": true,
+    "description": "OEM dual water inlet valve that supplies water to the ice maker and dispenser. A frequent culprit when the ice maker stops making ice or the dispenser won't fill.",
+    "part_url": "https://www.partselect.com/PS429725-Whirlpool-2255113-Refrigerator-Water-Inlet-Valve.htm",
+    "compatible_models": ["WRS321SDHZ", "WRS322FDAM02", "GSS25GSHSS"],
+    "symptoms": ["ice maker not working", "no water from dispenser", "ice maker not filling", "low ice production"],
+    "install": {
+      "difficulty": "Medium",
+      "time": "30 minutes",
+      "steps": [
+        "Unplug the refrigerator and shut off the household water supply.",
+        "Pull the refrigerator away from the wall and remove the lower rear access panel.",
+        "Place a towel to catch water, then disconnect the inlet and outlet water lines from the valve.",
+        "Disconnect the electrical connectors and unscrew the valve bracket.",
+        "Install the new valve, reconnect the water lines and connectors.",
+        "Restore water and power, then check for leaks and run the ice maker."
+      ]
+    }
+  },
+  {
+    "ps_number": "PS11739123",
+    "manufacturer_number": "W10882923",
+    "name": "Refrigerator Ice Maker Assembly",
+    "brand": "Whirlpool",
+    "appliance": "refrigerator",
+    "category": "Water & Ice",
+    "price": 119.84,
+    "in_stock": true,
+    "description": "Complete OEM ice maker assembly. Replaces the entire ice maker unit when it stops producing ice, doesn't eject cubes, or fails to cycle.",
+    "part_url": "https://www.partselect.com/PS11739123-Whirlpool-W10882923-Refrigerator-Ice-Maker-Assembly.htm",
+    "compatible_models": ["WRS321SDHZ", "WRS322FDAM02", "WRF560SEHZ"],
+    "symptoms": ["ice maker not working", "ice maker not ejecting", "no ice", "ice maker won't cycle"],
+    "install": {
+      "difficulty": "Medium",
+      "time": "30 minutes",
+      "steps": [
+        "Unplug the refrigerator.",
+        "Remove the ice bin below the ice maker.",
+        "Remove the mounting screws holding the ice maker to the freezer wall.",
+        "Disconnect the wiring harness from the old ice maker.",
+        "Connect the harness to the new ice maker and mount it with the screws.",
+        "Reinstall the ice bin, restore power, and allow 24 hours for ice production."
+      ]
+    }
+  },
+  {
+    "ps_number": "PS2179605",
+    "manufacturer_number": "240356402",
+    "name": "Refrigerator Door Bin (Frigidaire)",
+    "brand": "Frigidaire",
+    "appliance": "refrigerator",
+    "category": "Trays & Shelves",
+    "price": 39.27,
+    "in_stock": true,
+    "description": "OEM clear door bin for Frigidaire French door refrigerators. Snaps onto the door liner for bottle and condiment storage.",
+    "part_url": "https://www.partselect.com/PS2179605-Frigidaire-240356402-Refrigerator-Door-Bin.htm",
+    "compatible_models": ["FFHB2750TS"],
+    "symptoms": ["broken door bin", "cracked shelf", "missing door bin"],
+    "install": {
+      "difficulty": "Easy",
+      "time": "5 minutes",
+      "steps": [
+        "Open the refrigerator door.",
+        "Lift the damaged bin up and off the door liner brackets.",
+        "Hook the new bin onto the brackets at the desired height.",
+        "Press down to seat it firmly."
+      ]
+    }
+  },
+  {
+    "ps_number": "PS429316",
+    "manufacturer_number": "240389101",
+    "name": "Refrigerator Crisper Drawer",
+    "brand": "Frigidaire",
+    "appliance": "refrigerator",
+    "category": "Trays & Shelves",
+    "price": 58.63,
+    "in_stock": false,
+    "description": "OEM humidity-controlled crisper drawer for produce storage. Replaces a cracked or broken vegetable drawer.",
+    "part_url": "https://www.partselect.com/PS429316-Frigidaire-240389101-Refrigerator-Crisper-Drawer.htm",
+    "compatible_models": ["FFHB2750TS"],
+    "symptoms": ["broken crisper drawer", "cracked drawer", "drawer won't slide"],
+    "install": {
+      "difficulty": "Easy",
+      "time": "5 minutes",
+      "steps": [
+        "Open the refrigerator and pull the crisper drawer out to its stop.",
+        "Lift the front of the drawer slightly and pull it free of the rails.",
+        "Set the new drawer on the rails and slide it back in."
+      ]
+    }
+  },
+  {
+    "ps_number": "PS3501848",
+    "manufacturer_number": "DA29-00020B",
+    "name": "Refrigerator Water Filter",
+    "brand": "Samsung",
+    "appliance": "refrigerator",
+    "category": "Water & Ice",
+    "price": 44.99,
+    "in_stock": true,
+    "description": "Genuine Samsung HAF-CIN water filter. Reduces contaminants and improves taste; recommended replacement every six months.",
+    "part_url": "https://www.partselect.com/PS3501848-Samsung-DA29-00020B-Refrigerator-Water-Filter.htm",
+    "compatible_models": ["RF28R7351SR"],
+    "symptoms": ["bad tasting water", "slow water dispenser", "filter light on", "replace water filter"],
+    "install": {
+      "difficulty": "Easy",
+      "time": "5 minutes",
+      "steps": [
+        "Locate the filter inside the refrigerator compartment (usually upper right or in the base grille).",
+        "Twist the old filter a quarter turn counterclockwise and pull it out.",
+        "Remove the cap from the new filter and insert it.",
+        "Twist a quarter turn clockwise until it locks.",
+        "Run two gallons of water through the dispenser to clear air and reset the filter indicator."
+      ]
+    }
+  },
+  {
+    "ps_number": "PS10065695",
+    "manufacturer_number": "EDR1RXD1",
+    "name": "everydrop Refrigerator Water Filter 1",
+    "brand": "Whirlpool",
+    "appliance": "refrigerator",
+    "category": "Water & Ice",
+    "price": 49.99,
+    "in_stock": true,
+    "description": "Genuine everydrop Filter 1 (EDR1RXD1), replacing W10295370A. Fits select Whirlpool, KitchenAid, Maytag, and Amana side-by-side and French door refrigerators. Reduces chlorine taste and odor; replace every six months.",
+    "part_url": "https://www.partselect.com/PS10065695-Whirlpool-EDR1RXD1-everydrop-Refrigerator-Water-Filter-1.htm",
+    "compatible_models": ["WRS321SDHZ", "WRF560SEHZ", "WRS322FDAM02"],
+    "symptoms": ["bad tasting water", "slow water dispenser", "filter light on", "replace water filter"],
+    "install": {
+      "difficulty": "Easy",
+      "time": "5 minutes",
+      "steps": [
+        "Locate the filter (upper right interior corner or in the base grille).",
+        "Twist the old filter a quarter turn counterclockwise and pull it out.",
+        "Insert the new everydrop filter and twist a quarter turn clockwise until it locks.",
+        "Run three to four gallons of water through the dispenser to clear air and carbon fines.",
+        "Reset the filter status indicator."
+      ]
+    }
+  },
+  {
+    "ps_number": "PS2381797",
+    "manufacturer_number": "MWF",
+    "name": "Refrigerator Water Filter (GE MWF)",
+    "brand": "GE",
+    "appliance": "refrigerator",
+    "category": "Water & Ice",
+    "price": 52.75,
+    "in_stock": true,
+    "description": "Genuine GE MWF SmartWater filter. Fits many GE side-by-side and bottom-freezer refrigerators. Reduces select contaminants and improves taste; replace every six months.",
+    "part_url": "https://www.partselect.com/PS2381797-GE-MWF-Refrigerator-Water-Filter.htm",
+    "compatible_models": ["GSS25GSHSS"],
+    "symptoms": ["bad tasting water", "slow water dispenser", "filter light on", "replace water filter"],
+    "install": {
+      "difficulty": "Easy",
+      "time": "5 minutes",
+      "steps": [
+        "Locate the filter inside the fresh food compartment (usually upper right).",
+        "Turn the old filter to the left (counterclockwise) and pull it straight out.",
+        "Insert the new MWF filter and turn right until it clicks into place.",
+        "Run two gallons of water through the dispenser to purge air.",
+        "Reset the filter indicator if equipped."
+      ]
+    }
+  },
+  {
+    "ps_number": "PS1993870",
+    "manufacturer_number": "WF3CB",
+    "name": "Refrigerator Water Filter (Frigidaire PureSource 3)",
+    "brand": "Frigidaire",
+    "appliance": "refrigerator",
+    "category": "Water & Ice",
+    "price": 46.20,
+    "in_stock": true,
+    "description": "Genuine Frigidaire PureSource 3 (WF3CB) water filter. Fits many Frigidaire French door and side-by-side refrigerators. Reduces contaminants and improves taste; replace every six months.",
+    "part_url": "https://www.partselect.com/PS1993870-Frigidaire-WF3CB-Refrigerator-Water-Filter.htm",
+    "compatible_models": ["FFHB2750TS"],
+    "symptoms": ["bad tasting water", "slow water dispenser", "filter light on", "replace water filter"],
+    "install": {
+      "difficulty": "Easy",
+      "time": "5 minutes",
+      "steps": [
+        "Locate the filter in the upper right rear of the fresh food compartment.",
+        "Push the release button and pull the old filter straight out.",
+        "Remove the cap from the new filter and insert it until it clicks.",
+        "Run two gallons of water through the dispenser to clear air.",
+        "Reset the filter indicator."
+      ]
+    }
+  },
+  {
+    "ps_number": "PS2364646",
+    "manufacturer_number": "WR55X10942",
+    "name": "Refrigerator Electronic Control Board",
+    "brand": "GE",
+    "appliance": "refrigerator",
+    "category": "Thermostats & Controls",
+    "price": 168.32,
+    "in_stock": true,
+    "description": "OEM main control board that manages cooling, defrost, and dispenser functions. Replace when multiple electronic functions fail or the fridge stops cooling with no obvious mechanical cause.",
+    "part_url": "https://www.partselect.com/PS2364646-GE-WR55X10942-Refrigerator-Electronic-Control-Board.htm",
+    "compatible_models": ["GSS25GSHSS"],
+    "symptoms": ["fridge not cooling", "multiple functions failing", "control board failure", "no defrost"],
+    "install": {
+      "difficulty": "Medium",
+      "time": "25 minutes",
+      "steps": [
+        "Unplug the refrigerator.",
+        "Locate the control board housing at the rear of the unit.",
+        "Photograph the wiring for reference, then disconnect all harnesses.",
+        "Release the board from its mounting clips.",
+        "Seat the new board, reconnect every harness in the same positions.",
+        "Restore power and verify cooling resumes."
+      ]
+    }
+  },
+  {
+    "ps_number": "PS304841",
+    "manufacturer_number": "WR51X10055",
+    "name": "Refrigerator Defrost Heater Assembly",
+    "brand": "GE",
+    "appliance": "refrigerator",
+    "category": "Defrost System",
+    "price": 62.18,
+    "in_stock": true,
+    "description": "OEM defrost heater that melts frost from the evaporator coils. A common fix when frost builds up and the refrigerator stops cooling properly.",
+    "part_url": "https://www.partselect.com/PS304841-GE-WR51X10055-Refrigerator-Defrost-Heater-Assembly.htm",
+    "compatible_models": ["GSS25GSHSS"],
+    "symptoms": ["frost buildup", "fridge not cooling", "ice on back wall", "freezer frosting over"],
+    "install": {
+      "difficulty": "Hard",
+      "time": "60 minutes",
+      "steps": [
+        "Unplug the refrigerator and empty the freezer.",
+        "Remove the freezer rear panel to expose the evaporator coils.",
+        "Disconnect the defrost heater wiring and remove the old heater from the coil assembly.",
+        "Install the new heater, securing it in the same brackets.",
+        "Reconnect the wiring and reattach the rear panel.",
+        "Restore power and allow the unit to run a full defrost cycle."
+      ]
+    }
+  },
+  {
+    "ps_number": "PS11746337",
+    "manufacturer_number": "W10712395",
+    "name": "Dishwasher Upper Rack Adjuster Kit",
+    "brand": "Whirlpool",
+    "appliance": "dishwasher",
+    "category": "Racks & Adjusters",
+    "price": 42.79,
+    "in_stock": true,
+    "description": "Complete OEM upper rack adjuster kit including left and right adjusters, rollers, and clips. Fixes an upper rack that sags, falls, or won't stay level.",
+    "part_url": "https://www.partselect.com/PS11746337-Whirlpool-W10712395-Dishwasher-Upper-Rack-Adjuster-Kit.htm",
+    "compatible_models": ["WDT780SAEM1"],
+    "symptoms": ["upper rack falling", "rack won't stay level", "rack sagging", "broken rack adjuster"],
+    "install": {
+      "difficulty": "Medium",
+      "time": "20 minutes",
+      "steps": [
+        "Open the dishwasher and fully extend the upper rack.",
+        "Release the rack stops and slide the upper rack out of the tub.",
+        "Remove the old adjuster assemblies from both sides of the rack.",
+        "Install the new left and right adjusters with the included clips and rollers.",
+        "Slide the rack back onto the rails and reattach the stops.",
+        "Confirm the rack rolls smoothly and stays level."
+      ]
+    }
+  },
+  {
+    "ps_number": "PS11722152",
+    "manufacturer_number": "W10348269",
+    "name": "Dishwasher Lower Dishrack Wheel",
+    "brand": "Whirlpool",
+    "appliance": "dishwasher",
+    "category": "Racks & Adjusters",
+    "price": 12.95,
+    "in_stock": true,
+    "description": "OEM lower rack wheel that lets the bottom rack roll in and out smoothly. Replace when the lower rack drags, tips, or comes off its track.",
+    "part_url": "https://www.partselect.com/PS11722152-Whirlpool-W10348269-Dishwasher-Lower-Dishrack-Wheel.htm",
+    "compatible_models": ["WDT780SAEM1"],
+    "symptoms": ["lower rack won't roll", "rack tipping", "rack off track", "broken rack wheel"],
+    "install": {
+      "difficulty": "Easy",
+      "time": "10 minutes",
+      "steps": [
+        "Pull the lower rack out of the dishwasher.",
+        "Unclip or unscrew the old wheel from the rack frame.",
+        "Snap the new wheel into the same mounting point.",
+        "Return the rack to the track and confirm it rolls freely."
+      ]
+    }
+  },
+  {
+    "ps_number": "PS11757050",
+    "manufacturer_number": "W10300924",
+    "name": "Dishwasher Drain Pump",
+    "brand": "Whirlpool",
+    "appliance": "dishwasher",
+    "category": "Pumps & Motors",
+    "price": 78.64,
+    "in_stock": true,
+    "description": "OEM drain pump that removes water from the tub at the end of a cycle. A common fix when the dishwasher won't drain and leaves standing water.",
+    "part_url": "https://www.partselect.com/PS11757050-Whirlpool-W10300924-Dishwasher-Drain-Pump.htm",
+    "compatible_models": ["WDT780SAEM1"],
+    "symptoms": ["dishwasher won't drain", "standing water", "water in bottom", "not draining"],
+    "install": {
+      "difficulty": "Hard",
+      "time": "45 minutes",
+      "steps": [
+        "Disconnect power and shut off the water supply to the dishwasher.",
+        "Remove the lower access panel and, if needed, tilt the unit back to reach the pump.",
+        "Place towels to catch water, then disconnect the drain hose and wiring from the pump.",
+        "Twist and release the old pump from the sump.",
+        "Install the new pump, reconnect the hose and wiring.",
+        "Restore power and water, then run a cycle to confirm it drains."
+      ]
+    }
+  },
+  {
+    "ps_number": "PS11746240",
+    "manufacturer_number": "W10510667",
+    "name": "Dishwasher Water Inlet Valve",
+    "brand": "Whirlpool",
+    "appliance": "dishwasher",
+    "category": "Valves",
+    "price": 54.21,
+    "in_stock": true,
+    "description": "OEM water inlet valve that controls water flow into the dishwasher. Replace when the dishwasher won't fill or fills very slowly.",
+    "part_url": "https://www.partselect.com/PS11746240-Whirlpool-W10510667-Dishwasher-Water-Inlet-Valve.htm",
+    "compatible_models": ["WDT780SAEM1"],
+    "symptoms": ["dishwasher won't fill", "fills slowly", "no water", "not enough water"],
+    "install": {
+      "difficulty": "Medium",
+      "time": "30 minutes",
+      "steps": [
+        "Disconnect power and shut off the water supply.",
+        "Remove the lower access panel.",
+        "Place a towel, then disconnect the water supply line and fill hose from the valve.",
+        "Disconnect the electrical connectors and unbolt the valve bracket.",
+        "Mount the new valve, reconnect the hoses and connectors.",
+        "Restore water and power, then run a fill cycle and check for leaks."
+      ]
+    }
+  },
+  {
+    "ps_number": "PS11750673",
+    "manufacturer_number": "W10542314",
+    "name": "Dishwasher Door Seal / Gasket",
+    "brand": "Whirlpool",
+    "appliance": "dishwasher",
+    "category": "Seals & Gaskets",
+    "price": 33.88,
+    "in_stock": true,
+    "description": "OEM door gasket that seals the tub to prevent leaks during a wash cycle. Replace when water leaks from the door area.",
+    "part_url": "https://www.partselect.com/PS11750673-Whirlpool-W10542314-Dishwasher-Door-Seal.htm",
+    "compatible_models": ["WDT780SAEM1"],
+    "symptoms": ["dishwasher leaking", "water leaking from door", "leak at door", "worn door seal"],
+    "install": {
+      "difficulty": "Easy",
+      "time": "15 minutes",
+      "steps": [
+        "Open the dishwasher door.",
+        "Pull the old gasket out of its channel around the tub opening.",
+        "Soak the new gasket in warm water for a few minutes to make it pliable.",
+        "Press the new gasket firmly into the channel, starting at the center top.",
+        "Work outward and down both sides, seating it fully.",
+        "Close the door and run a short cycle to check for leaks."
+      ]
+    }
+  },
+  {
+    "ps_number": "PS11745496",
+    "manufacturer_number": "W10195840",
+    "name": "Dishwasher Lower Spray Arm",
+    "brand": "Whirlpool",
+    "appliance": "dishwasher",
+    "category": "Spray Arms",
+    "price": 41.15,
+    "in_stock": true,
+    "description": "OEM lower spray arm that distributes water across the bottom rack. Replace when dishes on the bottom rack come out dirty or the arm is cracked or clogged.",
+    "part_url": "https://www.partselect.com/PS11745496-Whirlpool-W10195840-Dishwasher-Lower-Spray-Arm.htm",
+    "compatible_models": ["WDT780SAEM1"],
+    "symptoms": ["dishes not clean", "poor cleaning", "spray arm not spinning", "cracked spray arm"],
+    "install": {
+      "difficulty": "Easy",
+      "time": "10 minutes",
+      "steps": [
+        "Remove the lower rack from the dishwasher.",
+        "Unscrew or unclip the retaining nut holding the lower spray arm.",
+        "Lift off the old spray arm.",
+        "Place the new spray arm on the hub and secure the retaining nut.",
+        "Spin the arm by hand to confirm it rotates freely.",
+        "Reinstall the lower rack."
+      ]
+    }
+  },
+  {
+    "ps_number": "PS11748850",
+    "manufacturer_number": "W10620085",
+    "name": "Dishwasher Heating Element",
+    "brand": "Whirlpool",
+    "appliance": "dishwasher",
+    "category": "Heating Elements",
+    "price": 47.92,
+    "in_stock": true,
+    "description": "OEM heating element that heats water for washing and dries dishes at the end of the cycle. Replace when dishes stay wet or water doesn't reach proper temperature.",
+    "part_url": "https://www.partselect.com/PS11748850-Whirlpool-W10620085-Dishwasher-Heating-Element.htm",
+    "compatible_models": ["WDT780SAEM1"],
+    "symptoms": ["dishes not drying", "wet dishes", "water not hot", "no heat dry"],
+    "install": {
+      "difficulty": "Medium",
+      "time": "30 minutes",
+      "steps": [
+        "Disconnect power to the dishwasher.",
+        "Remove the lower rack to access the heating element in the tub bottom.",
+        "From behind or beneath the unit, remove the mounting nuts securing the element terminals.",
+        "Disconnect the wiring and pull the old element out of the tub.",
+        "Insert the new element, secure the mounting nuts, and reconnect the wiring.",
+        "Restore power and run a cycle to confirm heating."
+      ]
+    }
+  },
+  {
+    "ps_number": "PS960908",
+    "manufacturer_number": "8268383",
+    "name": "Dishwasher Silverware Basket",
+    "brand": "Whirlpool",
+    "appliance": "dishwasher",
+    "category": "Racks & Adjusters",
+    "price": 26.74,
+    "in_stock": true,
+    "description": "OEM silverware basket with hinged lids. Replaces a cracked or broken utensil basket.",
+    "part_url": "https://www.partselect.com/PS960908-Whirlpool-8268383-Dishwasher-Silverware-Basket.htm",
+    "compatible_models": ["WDT780SAEM1"],
+    "symptoms": ["broken silverware basket", "cracked basket", "utensil basket damaged"],
+    "install": {
+      "difficulty": "Easy",
+      "time": "2 minutes",
+      "steps": [
+        "Open the dishwasher and remove the old silverware basket from the rack.",
+        "Set the new basket in the same position."
+      ]
+    }
+  },
+  {
+    "ps_number": "PS11689058",
+    "manufacturer_number": "00754869",
+    "name": "Dishwasher Rack Roller Kit",
+    "brand": "Bosch",
+    "appliance": "dishwasher",
+    "category": "Racks & Adjusters",
+    "price": 38.40,
+    "in_stock": true,
+    "description": "OEM rack roller replacement kit for Bosch dishwashers. Restores smooth rack movement when rollers wear out or break.",
+    "part_url": "https://www.partselect.com/PS11689058-Bosch-00754869-Dishwasher-Rack-Roller-Kit.htm",
+    "compatible_models": ["SHPM65Z55N"],
+    "symptoms": ["rack won't roll", "rack dragging", "broken roller", "rack off track"],
+    "install": {
+      "difficulty": "Easy",
+      "time": "15 minutes",
+      "steps": [
+        "Slide the affected rack out of the dishwasher.",
+        "Pry off the worn rollers from the rack frame.",
+        "Snap the new rollers into place.",
+        "Return the rack to the rails and confirm smooth movement."
+      ]
+    }
+  },
+  {
+    "ps_number": "PS11703587",
+    "manufacturer_number": "11002301",
+    "name": "Dishwasher Door Latch Assembly",
+    "brand": "Bosch",
+    "appliance": "dishwasher",
+    "category": "Latches & Switches",
+    "price": 51.07,
+    "in_stock": true,
+    "description": "OEM door latch assembly that secures the door and signals the control to start. Replace when the dishwasher won't start or the door won't latch.",
+    "part_url": "https://www.partselect.com/PS11703587-Bosch-11002301-Dishwasher-Door-Latch-Assembly.htm",
+    "compatible_models": ["SHPM65Z55N"],
+    "symptoms": ["dishwasher won't start", "door won't latch", "door won't close", "no power when started"],
+    "install": {
+      "difficulty": "Medium",
+      "time": "25 minutes",
+      "steps": [
+        "Disconnect power to the dishwasher.",
+        "Open the door and remove the inner door panel screws.",
+        "Separate the inner and outer door panels to reach the latch.",
+        "Disconnect the latch wiring and remove the old latch assembly.",
+        "Install the new latch, reconnect the wiring, and reassemble the door panels.",
+        "Restore power and confirm the door latches and the unit starts."
+      ]
+    }
+  },
+  {
+    "ps_number": "PS8689031",
+    "manufacturer_number": "WD22X10001",
+    "name": "Dishwasher Drain Hose",
+    "brand": "GE",
+    "appliance": "dishwasher",
+    "category": "Hoses & Tubes",
+    "price": 29.33,
+    "in_stock": true,
+    "description": "OEM drain hose that carries wastewater from the pump to the household drain. Replace when the hose is cracked, kinked, or leaking.",
+    "part_url": "https://www.partselect.com/PS8689031-GE-WD22X10001-Dishwasher-Drain-Hose.htm",
+    "compatible_models": ["GDF520PGJ"],
+    "symptoms": ["dishwasher leaking", "won't drain", "leak underneath", "cracked drain hose"],
+    "install": {
+      "difficulty": "Medium",
+      "time": "30 minutes",
+      "steps": [
+        "Disconnect power and water to the dishwasher.",
+        "Remove the lower access panel.",
+        "Loosen the clamps and disconnect the old drain hose at the pump and the drain connection.",
+        "Route the new hose along the same path, avoiding kinks.",
+        "Secure both ends with clamps.",
+        "Restore power and water, then run a cycle to confirm proper draining and no leaks."
+      ]
+    }
+  },
+  {
+    "ps_number": "PS904387",
+    "manufacturer_number": "WD21X10261",
+    "name": "Dishwasher Pump and Motor Assembly",
+    "brand": "GE",
+    "appliance": "dishwasher",
+    "category": "Pumps & Motors",
+    "price": 142.56,
+    "in_stock": false,
+    "description": "OEM circulation pump and motor assembly that powers water through the spray arms. Replace when the dishwasher runs but doesn't clean or makes loud grinding noises.",
+    "part_url": "https://www.partselect.com/PS904387-GE-WD21X10261-Dishwasher-Pump-and-Motor-Assembly.htm",
+    "compatible_models": ["GDF520PGJ"],
+    "symptoms": ["dishes not clean", "loud noise", "grinding sound", "pump failure", "no water circulation"],
+    "install": {
+      "difficulty": "Hard",
+      "time": "60 minutes",
+      "steps": [
+        "Disconnect power and water.",
+        "Remove the lower rack, spray arm, and filter to access the sump.",
+        "Tilt the dishwasher back and remove the lower access panel.",
+        "Disconnect the wiring and hoses from the pump and motor assembly.",
+        "Remove the old assembly and install the new one in the same orientation.",
+        "Reconnect hoses and wiring, restore power and water, and test a full cycle."
+      ]
+    }
+  },
+  {
+    "ps_number": "PS1145888",
+    "manufacturer_number": "5304506516",
+    "name": "Dishwasher Silverware Basket (Frigidaire)",
+    "brand": "Frigidaire",
+    "appliance": "dishwasher",
+    "category": "Racks & Adjusters",
+    "price": 24.18,
+    "in_stock": true,
+    "description": "OEM replacement silverware basket for Frigidaire dishwashers.",
+    "part_url": "https://www.partselect.com/PS1145888-Frigidaire-5304506516-Dishwasher-Silverware-Basket.htm",
+    "compatible_models": ["FFCD2413US"],
+    "symptoms": ["broken silverware basket", "cracked basket", "utensil basket damaged"],
+    "install": {
+      "difficulty": "Easy",
+      "time": "2 minutes",
+      "steps": [
+        "Remove the old basket from the lower rack.",
+        "Place the new basket in position."
+      ]
+    }
+  },
+  {
+    "ps_number": "PS12364069",
+    "manufacturer_number": "5304517203",
+    "name": "Dishwasher Control Board (Frigidaire)",
+    "brand": "Frigidaire",
+    "appliance": "dishwasher",
+    "category": "Thermostats & Controls",
+    "price": 134.99,
+    "in_stock": true,
+    "description": "OEM electronic control board that manages cycle selection and timing. Replace when the dishwasher is unresponsive, won't advance cycles, or shows error codes.",
+    "part_url": "https://www.partselect.com/PS12364069-Frigidaire-5304517203-Dishwasher-Control-Board.htm",
+    "compatible_models": ["FFCD2413US"],
+    "symptoms": ["dishwasher unresponsive", "buttons not working", "won't advance cycle", "error code", "control board failure"],
+    "install": {
+      "difficulty": "Medium",
+      "time": "30 minutes",
+      "steps": [
+        "Disconnect power to the dishwasher.",
+        "Remove the inner door panel screws and separate the panels to reach the control board.",
+        "Photograph the wiring, then disconnect all connectors from the old board.",
+        "Release the board from its housing.",
+        "Seat the new board and reconnect every connector in the same positions.",
+        "Reassemble the door, restore power, and test."
+      ]
+    }
+  },
+  {
+    "ps_number": "PS11724599",
+    "manufacturer_number": "W10546503",
+    "name": "Refrigerator Door Gasket / Seal",
+    "brand": "Whirlpool",
+    "appliance": "refrigerator",
+    "category": "Seals & Gaskets",
+    "price": 89.45,
+    "in_stock": true,
+    "description": "OEM refrigerator door gasket that seals the door to maintain temperature. Replace when the door doesn't seal, the fridge runs constantly, or condensation forms.",
+    "part_url": "https://www.partselect.com/PS11724599-Whirlpool-W10546503-Refrigerator-Door-Gasket.htm",
+    "compatible_models": ["WRS321SDHZ", "WRF560SEHZ"],
+    "symptoms": ["door won't seal", "fridge running constantly", "condensation", "warm fridge", "torn door gasket"],
+    "install": {
+      "difficulty": "Medium",
+      "time": "40 minutes",
+      "steps": [
+        "Unplug the refrigerator.",
+        "Pull back the edge of the old gasket to expose the retainer screws behind it.",
+        "Loosen (do not fully remove) the screws around the door and pull the old gasket out.",
+        "Soak the new gasket in warm water to relax it.",
+        "Tuck the new gasket behind the retainer starting at the top corners.",
+        "Work around the door, then tighten the screws and close the door to check the seal."
+      ]
+    }
+  },
+  {
+    "ps_number": "PS2370220",
+    "manufacturer_number": "WR17X11705",
+    "name": "Refrigerator Ice Bucket / Bin",
+    "brand": "GE",
+    "appliance": "refrigerator",
+    "category": "Water & Ice",
+    "price": 71.30,
+    "in_stock": true,
+    "description": "OEM ice storage bucket for the door dispenser. Replace when the bin is cracked or the auger gear is stripped.",
+    "part_url": "https://www.partselect.com/PS2370220-GE-WR17X11705-Refrigerator-Ice-Bucket.htm",
+    "compatible_models": ["GSS25GSHSS"],
+    "symptoms": ["cracked ice bucket", "ice not dispensing", "auger not turning", "broken ice bin"],
+    "install": {
+      "difficulty": "Easy",
+      "time": "5 minutes",
+      "steps": [
+        "Open the freezer door and lift the ice bucket up and out of its holder.",
+        "Align the new bucket with the drive socket at the back.",
+        "Slide it in until it seats and engages the auger drive."
+      ]
+    }
+  },
+  {
+    "ps_number": "PS11703460",
+    "manufacturer_number": "00649262",
+    "name": "Dishwasher Filter Assembly",
+    "brand": "Bosch",
+    "appliance": "dishwasher",
+    "category": "Filters",
+    "price": 34.62,
+    "in_stock": true,
+    "description": "OEM micro filter assembly that traps food particles. Replace a clogged or damaged filter when cleaning performance drops or odors develop.",
+    "part_url": "https://www.partselect.com/PS11703460-Bosch-00649262-Dishwasher-Filter-Assembly.htm",
+    "compatible_models": ["SHPM65Z55N"],
+    "symptoms": ["dishes not clean", "bad odor", "clogged filter", "poor cleaning", "smell"],
+    "install": {
+      "difficulty": "Easy",
+      "time": "5 minutes",
+      "steps": [
+        "Remove the lower rack.",
+        "Twist the cylindrical filter counterclockwise and lift it out along with the flat filter beneath.",
+        "Insert the new flat and cylindrical filters.",
+        "Twist the cylindrical filter clockwise to lock.",
+        "Reinstall the lower rack."
+      ]
+    }
+  },
+  {
+    "ps_number": "PS11739035",
+    "manufacturer_number": "W10874836",
+    "name": "Refrigerator Evaporator Fan Motor",
+    "brand": "Whirlpool",
+    "appliance": "refrigerator",
+    "category": "Fans & Motors",
+    "price": 67.88,
+    "in_stock": true,
+    "description": "OEM evaporator fan motor that circulates cold air from the freezer to the fresh food section. Replace when the fridge is warm but the freezer is cold, or the fan is noisy.",
+    "part_url": "https://www.partselect.com/PS11739035-Whirlpool-W10874836-Refrigerator-Evaporator-Fan-Motor.htm",
+    "compatible_models": ["WRS321SDHZ", "WRF560SEHZ"],
+    "symptoms": ["fridge warm freezer cold", "loud fan noise", "fridge not cooling", "noisy refrigerator"],
+    "install": {
+      "difficulty": "Hard",
+      "time": "50 minutes",
+      "steps": [
+        "Unplug the refrigerator and empty the freezer.",
+        "Remove the freezer rear panel to expose the evaporator fan.",
+        "Disconnect the fan motor wiring and remove the mounting bracket.",
+        "Transfer the fan blade to the new motor if required.",
+        "Mount the new motor, reconnect the wiring, and reattach the panel.",
+        "Restore power and confirm airflow to the fresh food compartment."
+      ]
+    }
+  }
+]

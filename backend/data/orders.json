@@ -1,0 +1,99 @@
+[
+  {
+    "order_id": "PS-100234",
+    "status": "Delivered",
+    "order_date": "2026-05-18",
+    "ship_date": "2026-05-19",
+    "delivered_date": "2026-05-22",
+    "estimated_delivery": "2026-05-22",
+    "tracking_number": "1Z999AA10123456784",
+    "carrier": "UPS",
+    "shipping_address": "742 Evergreen Terrace, Springfield, IL 62704",
+    "items": [
+      { "ps_number": "PS11752778", "name": "Refrigerator Door Shelf Bin", "quantity": 1, "price": 36.98 }
+    ],
+    "subtotal": 36.98,
+    "shipping_cost": 7.99,
+    "total": 44.97,
+    "return_eligible": true,
+    "cancellable": false
+  },
+  {
+    "order_id": "PS-100571",
+    "status": "Shipped",
+    "order_date": "2026-06-08",
+    "ship_date": "2026-06-09",
+    "delivered_date": null,
+    "estimated_delivery": "2026-06-15",
+    "tracking_number": "9405511206213149870123",
+    "carrier": "USPS",
+    "shipping_address": "1600 Pennsylvania Ave NW, Washington, DC 20500",
+    "items": [
+      { "ps_number": "PS11757050", "name": "Dishwasher Drain Pump", "quantity": 1, "price": 78.64 },
+      { "ps_number": "PS11750673", "name": "Dishwasher Door Seal / Gasket", "quantity": 1, "price": 33.88 }
+    ],
+    "subtotal": 112.52,
+    "shipping_cost": 0.0,
+    "total": 112.52,
+    "return_eligible": false,
+    "cancellable": false
+  },
+  {
+    "order_id": "PS-100698",
+    "status": "Processing",
+    "order_date": "2026-06-12",
+    "ship_date": null,
+    "delivered_date": null,
+    "estimated_delivery": "2026-06-18",
+    "tracking_number": null,
+    "carrier": null,
+    "shipping_address": "350 Fifth Avenue, New York, NY 10118",
+    "items": [
+      { "ps_number": "PS429725", "name": "Refrigerator Water Inlet Valve", "quantity": 1, "price": 49.95 }
+    ],
+    "subtotal": 49.95,
+    "shipping_cost": 7.99,
+    "total": 57.94,
+    "return_eligible": false,
+    "cancellable": true
+  },
+  {
+    "order_id": "PS-100712",
+    "status": "Processing",
+    "order_date": "2026-06-13",
+    "ship_date": null,
+    "delivered_date": null,
+    "estimated_delivery": "2026-06-19",
+    "tracking_number": null,
+    "carrier": null,
+    "shipping_address": "1 Infinite Loop, Cupertino, CA 95014",
+    "items": [
+      { "ps_number": "PS11739123", "name": "Refrigerator Ice Maker Assembly", "quantity": 1, "price": 119.84 },
+      { "ps_number": "PS10065695", "name": "everydrop Refrigerator Water Filter 1", "quantity": 2, "price": 49.99 }
+    ],
+    "subtotal": 219.82,
+    "shipping_cost": 0.0,
+    "total": 219.82,
+    "return_eligible": false,
+    "cancellable": true
+  },
+  {
+    "order_id": "PS-100355",
+    "status": "Delivered",
+    "order_date": "2026-04-30",
+    "ship_date": "2026-05-01",
+    "delivered_date": "2026-05-05",
+    "estimated_delivery": "2026-05-05",
+    "tracking_number": "1Z999AA10987654321",
+    "carrier": "UPS",
+    "shipping_address": "233 S Wacker Dr, Chicago, IL 60606",
+    "items": [
+      { "ps_number": "PS11746337", "name": "Dishwasher Upper Rack Adjuster Kit", "quantity": 1, "price": 42.79 }
+    ],
+    "subtotal": 42.79,
+    "shipping_cost": 7.99,
+    "total": 50.78,
+    "return_eligible": true,
+    "cancellable": false
+  }
+]

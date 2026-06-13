@@ -18,3 +18,9 @@ dependencies = [
 dev = [
     "pytest>=9.0.3",
 ]
+
+[tool.pytest.ini_options]
+# Put the backend root on sys.path so tests can `from app import ...`
+# without an installed package or __init__.py (we use namespace packages).
+pythonpath = "."
+testpaths = ["tests"]

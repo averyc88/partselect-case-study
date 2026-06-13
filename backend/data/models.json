@@ -1,0 +1,92 @@
+[
+  {
+    "model_number": "WRS321SDHZ",
+    "brand": "Whirlpool",
+    "appliance": "refrigerator",
+    "type": "Side-by-Side",
+    "description": "Whirlpool 33-inch, 21.4 cu. ft. side-by-side refrigerator with external ice and water dispenser.",
+    "water_filter_ps": "PS10065695",
+    "compatible_parts": ["PS11752778", "PS11752309", "PS733947", "PS429725", "PS11739123", "PS11724599", "PS11739035", "PS10065695"]
+  },
+  {
+    "model_number": "WRF560SEHZ",
+    "brand": "Whirlpool",
+    "appliance": "refrigerator",
+    "type": "French Door",
+    "description": "Whirlpool 30-inch, 20 cu. ft. French door refrigerator with bottom freezer and humidity-controlled crispers.",
+    "water_filter_ps": "PS10065695",
+    "compatible_parts": ["PS11739123", "PS11724599", "PS11739035", "PS10065695"]
+  },
+  {
+    "model_number": "WRS322FDAM02",
+    "brand": "Whirlpool",
+    "appliance": "refrigerator",
+    "type": "Side-by-Side",
+    "description": "Whirlpool side-by-side refrigerator with external dispenser.",
+    "water_filter_ps": "PS10065695",
+    "compatible_parts": ["PS11752778", "PS11752309", "PS429725", "PS11739123", "PS10065695"]
+  },
+  {
+    "model_number": "GSS25GSHSS",
+    "brand": "GE",
+    "appliance": "refrigerator",
+    "type": "Side-by-Side",
+    "description": "GE 36-inch, 25.3 cu. ft. side-by-side refrigerator with Arctica ice maker and external dispenser.",
+    "water_filter_ps": "PS2381797",
+    "compatible_parts": ["PS429725", "PS2364646", "PS304841", "PS2370220", "PS2381797"]
+  },
+  {
+    "model_number": "FFHB2750TS",
+    "brand": "Frigidaire",
+    "appliance": "refrigerator",
+    "type": "French Door",
+    "description": "Frigidaire 36-inch, 26.8 cu. ft. French door refrigerator with dual ice and PureSource filtration.",
+    "water_filter_ps": "PS1993870",
+    "compatible_parts": ["PS2179605", "PS429316", "PS1993870"]
+  },
+  {
+    "model_number": "RF28R7351SR",
+    "brand": "Samsung",
+    "appliance": "refrigerator",
+    "type": "4-Door French Door",
+    "description": "Samsung 36-inch, 28 cu. ft. 4-door French door refrigerator with Food Showcase and FlexZone drawer.",
+    "water_filter_ps": "PS3501848",
+    "compatible_parts": ["PS3501848"]
+  },
+  {
+    "model_number": "WDT780SAEM1",
+    "brand": "Whirlpool",
+    "appliance": "dishwasher",
+    "type": "Built-In Tall Tub",
+    "description": "Whirlpool built-in dishwasher with stainless tub, third rack, and sensor cycles.",
+    "water_filter_ps": null,
+    "compatible_parts": ["PS11746337", "PS11722152", "PS11757050", "PS11746240", "PS11750673", "PS11745496", "PS11748850", "PS960908"]
+  },
+  {
+    "model_number": "SHPM65Z55N",
+    "brand": "Bosch",
+    "appliance": "dishwasher",
+    "type": "Fully Integrated",
+    "description": "Bosch 500 Series 24-inch fully integrated dishwasher with flexible third rack and 44 dBA sound level.",
+    "water_filter_ps": null,
+    "compatible_parts": ["PS11689058", "PS11703587", "PS11703460"]
+  },
+  {
+    "model_number": "GDF520PGJ",
+    "brand": "GE",
+    "appliance": "dishwasher",
+    "type": "Front Control",
+    "description": "GE 24-inch front-control dishwasher with Piranha hard food disposer and 16 place setting capacity.",
+    "water_filter_ps": null,
+    "compatible_parts": ["PS8689031", "PS904387"]
+  },
+  {
+    "model_number": "FFCD2413US",
+    "brand": "Frigidaire",
+    "appliance": "dishwasher",
+    "type": "Full Console",
+    "description": "Frigidaire 24-inch full-console dishwasher with 14 place setting capacity and heated dry.",
+    "water_filter_ps": null,
+    "compatible_parts": ["PS1145888", "PS12364069"]
+  }
+]

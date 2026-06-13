@@ -1,0 +1,245 @@
+[
+  {
+    "id": "fridge-ice-maker-not-working",
+    "appliance": "refrigerator",
+    "title": "Refrigerator Ice Maker Not Making Ice",
+    "symptoms": ["ice maker not working", "no ice", "ice maker stopped", "low ice production"],
+    "user_phrasings": [
+      "the ice maker on my whirlpool fridge is not working",
+      "my refrigerator stopped making ice",
+      "ice maker quit working no cubes",
+      "fridge isn't producing ice anymore",
+      "ice maker not making ice how do I fix it",
+      "barely any ice coming out",
+      "whirlpool ice maker won't make ice"
+    ],
+    "content": "When a refrigerator ice maker stops producing ice, work through the most common causes in order:\n\n1. **Freezer temperature** – The freezer must be at or below 0°F (-18°C) for the ice maker to cycle. If it's warmer, ice production slows or stops. Verify the setting and give it 24 hours.\n2. **Frozen or kinked water fill tube** – The small tube that delivers water to the ice maker can freeze shut. Thaw it carefully with warm water or a hair dryer on low.\n3. **Water inlet valve** – This valve opens to let water into the ice maker. If it's faulty or clogged, no water reaches the tray. This is one of the most common failures.\n4. **Ice maker assembly** – If water is reaching the unit but it still won't cycle or eject cubes, the ice maker module or motor may have failed and the whole assembly needs replacing.\n\nAfter any fix, allow up to 24 hours for the first full batch of ice.",
+    "related_parts": ["PS429725", "PS11739123"]
+  },
+  {
+    "id": "fridge-not-cooling",
+    "appliance": "refrigerator",
+    "title": "Refrigerator Not Cooling Properly",
+    "symptoms": ["fridge not cooling", "refrigerator too warm", "food spoiling", "warm fridge"],
+    "user_phrasings": [
+      "my fridge isn't getting cold",
+      "refrigerator not cooling but freezer is fine",
+      "food is spoiling fridge too warm",
+      "fridge section warm freezer cold",
+      "refrigerator stopped cooling",
+      "my whirlpool fridge won't stay cold",
+      "everything in the fridge is going bad"
+    ],
+    "content": "A refrigerator that runs but won't cool usually points to one of these:\n\n1. **Evaporator fan motor** – If the fridge is warm but the freezer is still cold, the evaporator fan that moves cold air between compartments may have failed. Listen for the fan; a silent or noisy fan is a strong clue.\n2. **Temperature control thermostat** – A failed cold control may stop signaling the compressor to run. \n3. **Frost-covered evaporator coils** – If the defrost system fails, frost builds up on the coils and blocks airflow, so the compartment warms even though the compressor runs.\n4. **Condenser coils** – Dirty condenser coils make the system inefficient. Clean them with a coil brush and vacuum.\n5. **Door seal** – A worn door gasket lets warm air in and makes the fridge run constantly without staying cold.",
+    "related_parts": ["PS11739035", "PS733947", "PS11724599"]
+  },
+  {
+    "id": "fridge-frost-buildup",
+    "appliance": "refrigerator",
+    "title": "Frost or Ice Building Up in the Freezer",
+    "symptoms": ["frost buildup", "ice on back wall", "freezer frosting over", "defrost problem"],
+    "user_phrasings": [
+      "frost building up in my freezer",
+      "ice on the back wall of the freezer",
+      "freezer keeps frosting over",
+      "thick ice buildup inside freezer",
+      "my ge fridge has frost everywhere",
+      "snow like frost in the freezer compartment"
+    ],
+    "content": "Excessive frost in a freezer typically means the automatic defrost system isn't working:\n\n1. **Defrost heater** – This heater melts frost off the evaporator coils several times a day. When it fails, frost accumulates until it blocks airflow and the fridge stops cooling. This is the most common cause.\n2. **Defrost thermostat** – It tells the system when the coils are cold enough to need a defrost cycle. A failed thermostat prevents the heater from turning on.\n3. **Defrost timer or control board** – Controls the defrost schedule. If it doesn't advance into defrost, frost builds up.\n4. **Door seal** – A poor door seal lets humid air in, which freezes into frost. Check the gasket if frost forms near the door.\n\nManually defrost the unit (unplug for 24 hours) before replacing parts so you start from a clean state.",
+    "related_parts": ["PS304841", "PS11724599"]
+  },
+  {
+    "id": "fridge-water-taste",
+    "appliance": "refrigerator",
+    "title": "Bad-Tasting Water or Slow Dispenser",
+    "symptoms": ["bad tasting water", "slow water dispenser", "filter light on", "replace water filter"],
+    "user_phrasings": [
+      "water from my fridge tastes bad",
+      "dispenser water comes out slow",
+      "filter light is on",
+      "funny taste in the ice and water",
+      "how often should I change the water filter",
+      "water trickles out of the dispenser",
+      "my refrigerator water smells weird"
+    ],
+    "content": "Taste, odor, and slow-flow problems at the dispenser almost always trace back to the water filter:\n\n1. **Replace the water filter** – Filters should be changed every six months. An old filter causes bad taste, odor, and slow flow as it clogs. Use the correct filter for your brand (Whirlpool uses everydrop, GE uses MWF, Frigidaire uses PureSource, Samsung uses its DA29 series).\n2. **Flush after replacing** – Run 2–4 gallons through the dispenser to clear carbon fines and trapped air, which otherwise cause sputtering and cloudy water.\n3. **Check water pressure** – Household supply below ~40 psi can cause slow dispensing even with a new filter.\n4. **Reset the filter indicator** – After replacement, reset the status light so it tracks the next interval.",
+    "related_parts": ["PS10065695", "PS2381797", "PS1993870", "PS3501848"]
+  },
+  {
+    "id": "fridge-door-not-sealing",
+    "appliance": "refrigerator",
+    "title": "Refrigerator Door Not Sealing / Running Constantly",
+    "symptoms": ["door won't seal", "fridge running constantly", "condensation", "torn door gasket"],
+    "user_phrasings": [
+      "my fridge door doesn't seal properly",
+      "refrigerator runs all the time",
+      "condensation forming inside the fridge",
+      "door gasket is torn",
+      "fridge door won't stay shut",
+      "sweating inside the refrigerator"
+    ],
+    "content": "If the door won't seal, the fridge works harder, runs constantly, and may form condensation:\n\n1. **Inspect the door gasket** – Look for tears, flattened spots, or gaps. Test the seal by closing the door on a dollar bill; if it slides out easily, the gasket is weak.\n2. **Clean the gasket** – Sticky residue can prevent sealing. Wipe with warm soapy water.\n3. **Check door alignment** – A sagging door from worn hinges can prevent a good seal.\n4. **Replace the gasket** – If it's cracked or deformed, install a new door gasket. Soak it in warm water first to make it pliable and easier to seat.",
+    "related_parts": ["PS11724599"]
+  },
+  {
+    "id": "fridge-door-bin-broken",
+    "appliance": "refrigerator",
+    "title": "Cracked or Broken Door Bin / Shelf",
+    "symptoms": ["broken door bin", "cracked shelf", "door shelf won't stay", "missing door bin"],
+    "user_phrasings": [
+      "my door bin cracked",
+      "refrigerator shelf broke",
+      "door shelf won't stay in place",
+      "need to replace a broken fridge bin",
+      "the bin on the fridge door snapped",
+      "shelf on the door keeps falling"
+    ],
+    "content": "Door bins and shelves are simple to replace once you have the right part:\n\n1. **Identify the exact bin** – Bins vary by model and position (upper vs. lower). Match the part to your model number to ensure a correct fit.\n2. **Remove the old bin** – Most bins lift straight up and off the door rails. Some have tabs that must be released first.\n3. **Install the new bin** – Align it with the rails at the desired height and press down until it clicks.\n4. **Confirm it's seated** – Tug gently to make sure it's locked before loading it.",
+    "related_parts": ["PS11752778", "PS11752309", "PS2179605"]
+  },
+  {
+    "id": "fridge-ice-not-dispensing",
+    "appliance": "refrigerator",
+    "title": "Ice Not Dispensing from the Door",
+    "symptoms": ["ice not dispensing", "auger not turning", "cracked ice bucket", "ice jammed"],
+    "user_phrasings": [
+      "ice won't come out of the dispenser",
+      "auger doesn't turn",
+      "ice bucket is cracked",
+      "dispenser jammed with ice",
+      "no ice dispensing even though the bin is full",
+      "my ge fridge won't dispense ice"
+    ],
+    "content": "If the ice maker is producing ice but none dispenses:\n\n1. **Check for a clump or jam** – Ice that partially melts and refreezes can jam the bucket and auger. Empty the bucket and break up any clumps.\n2. **Inspect the ice bucket and auger** – A cracked bucket or stripped auger gear will spin without moving ice. Replace the bucket assembly if the drive gear is damaged.\n3. **Dispenser motor or switch** – If the auger never turns and there's no hum, the dispenser motor or door switch may have failed.\n4. **Avoid long storage** – Ice left unused for weeks tends to clump; using ice regularly keeps it from fusing.",
+    "related_parts": ["PS2370220"]
+  },
+  {
+    "id": "dishwasher-not-draining",
+    "appliance": "dishwasher",
+    "title": "Dishwasher Won't Drain / Standing Water",
+    "symptoms": ["dishwasher won't drain", "standing water", "water in bottom", "not draining"],
+    "user_phrasings": [
+      "my dishwasher won't drain",
+      "standing water in the bottom of the dishwasher",
+      "water left in the dishwasher after the cycle",
+      "dishwasher not draining all the way",
+      "puddle at the bottom of my whirlpool dishwasher",
+      "dirty water sitting in the tub"
+    ],
+    "content": "Standing water after a cycle means water isn't being pumped out:\n\n1. **Clean the filter** – A clogged filter at the bottom of the tub is the most common and easiest cause. Remove and rinse it.\n2. **Check for a drain hose clog or kink** – Food debris can block the drain hose, or it can be kinked behind the unit.\n3. **Garbage disposal knockout plug** – If a disposal was recently installed, the knockout plug may not have been removed, blocking the drain.\n4. **Drain pump** – If the filter and hose are clear, the drain pump may have failed or be jammed with debris (glass, a seed pit). Listen for a humming pump that isn't moving water.",
+    "related_parts": ["PS11757050"]
+  },
+  {
+    "id": "dishwasher-not-cleaning",
+    "appliance": "dishwasher",
+    "title": "Dishes Not Coming Out Clean",
+    "symptoms": ["dishes not clean", "poor cleaning", "spray arm not spinning", "food residue"],
+    "user_phrasings": [
+      "my dishes come out dirty",
+      "dishwasher isn't cleaning well",
+      "food residue left on dishes",
+      "spray arm doesn't seem to spin",
+      "plates still have stuck on food after washing",
+      "dishwasher leaving grit on glasses",
+      "not getting dishes clean anymore"
+    ],
+    "content": "Poor cleaning usually comes down to water not reaching the dishes properly:\n\n1. **Clean the filter** – A dirty filter recirculates food particles back onto dishes. Clean it regularly.\n2. **Check the spray arms** – Spin them by hand; they must rotate freely. Clear clogged spray holes with a toothpick. A cracked spray arm won't build pressure.\n3. **Don't block the arms** – Tall items can stop the arms from spinning. Reload and retest.\n4. **Water temperature** – Water should reach about 120°F. If the heating element has failed, wash water may be too cool to dissolve grease.\n5. **Circulation pump** – If arms are clear but cleaning is still poor and the unit is loud, the circulation pump may be failing.",
+    "related_parts": ["PS11745496", "PS11703460", "PS904387"]
+  },
+  {
+    "id": "dishwasher-leaking",
+    "appliance": "dishwasher",
+    "title": "Dishwasher Leaking Water",
+    "symptoms": ["dishwasher leaking", "water leaking from door", "leak underneath", "worn door seal"],
+    "user_phrasings": [
+      "my dishwasher is leaking",
+      "water leaking from the door",
+      "puddle on the floor in front of the dishwasher",
+      "leak coming from under the dishwasher",
+      "door seal looks worn and it's leaking",
+      "water on the kitchen floor after running the dishwasher"
+    ],
+    "content": "Track down a leak by where the water appears:\n\n1. **Door seal / gasket** – Leaks at the front usually mean a worn or dislodged door gasket. Inspect it for cracks or flattened areas and replace if needed.\n2. **Drain hose connections** – Leaks underneath often come from a cracked drain hose or loose clamps at the pump or drain.\n3. **Overfilling** – A stuck water inlet valve can overfill the tub and cause overflow. \n4. **Spray arm seal / pump housing** – Less common, but a cracked pump housing or sump gasket can leak from below.\n5. **Level the unit** – A dishwasher that isn't level can pool water toward one corner and leak from the door.",
+    "related_parts": ["PS11750673", "PS8689031"]
+  },
+  {
+    "id": "dishwasher-wont-start",
+    "appliance": "dishwasher",
+    "title": "Dishwasher Won't Start",
+    "symptoms": ["dishwasher won't start", "door won't latch", "no power", "dead dishwasher"],
+    "user_phrasings": [
+      "my dishwasher won't start",
+      "dishwasher is dead no power",
+      "door won't latch so it won't run",
+      "press start and nothing happens",
+      "bosch dishwasher won't turn on",
+      "no lights on the dishwasher"
+    ],
+    "content": "When a dishwasher won't start at all:\n\n1. **Door latch** – The door must latch fully for the cycle to begin. If the latch is broken or misaligned, the unit thinks the door is open and won't start. This is a very common cause.\n2. **Power** – Confirm the dishwasher has power: check the breaker and the cord/junction box connection under the sink.\n3. **Control panel buttons** – Unresponsive buttons can indicate a failed control board or touchpad.\n4. **Child lock** – Make sure the control lock / child lock feature isn't enabled.\n5. **Thermal fuse** – A blown thermal fuse on the control board cuts power to the unit.",
+    "related_parts": ["PS11703587", "PS12364069"]
+  },
+  {
+    "id": "dishwasher-not-drying",
+    "appliance": "dishwasher",
+    "title": "Dishes Not Drying / Staying Wet",
+    "symptoms": ["dishes not drying", "wet dishes", "water not hot", "no heat dry"],
+    "user_phrasings": [
+      "my dishes are still wet at the end",
+      "dishwasher isn't drying the dishes",
+      "everything is wet after the cycle",
+      "no heat drying anymore",
+      "dishes come out soaked",
+      "plastic items stay wet in the dishwasher"
+    ],
+    "content": "Wet dishes after a cycle point to the drying system or rinse aid:\n\n1. **Rinse aid** – Low or empty rinse aid is the #1 cause of poor drying; it helps water sheet off dishes. Refill the dispenser.\n2. **Heating element** – On units with heated dry, a failed heating element leaves dishes wet (and may also leave wash water too cool). Test it for continuity.\n3. **Unload bottom-up** – Water pooled on upturned items can spill onto lower dishes when unloading top-first.\n4. **High-temp / heated-dry setting** – Make sure a heated dry or sanitize option is selected.\n5. **Plastic items** – Plastics hold water and dry poorly even on a healthy machine; this can be normal.",
+    "related_parts": ["PS11748850"]
+  },
+  {
+    "id": "dishwasher-wont-fill",
+    "appliance": "dishwasher",
+    "title": "Dishwasher Won't Fill with Water",
+    "symptoms": ["dishwasher won't fill", "fills slowly", "no water", "not enough water"],
+    "user_phrasings": [
+      "my dishwasher isn't filling with water",
+      "no water going into the dishwasher",
+      "dishwasher fills very slowly",
+      "not enough water in the tub",
+      "I can hear it running but no water comes in"
+    ],
+    "content": "If the dishwasher runs but doesn't fill:\n\n1. **Water supply** – Confirm the water shutoff valve under the sink is fully open.\n2. **Water inlet valve** – This valve lets water into the tub. If it's clogged with sediment or has failed electrically, little or no water enters. This is the most common cause of a no-fill.\n3. **Float switch** – A stuck float can falsely tell the control the tub is full, stopping the fill. Check that the float moves freely.\n4. **Inlet screen** – Sediment can clog the screen on the inlet valve; cleaning it can restore flow.",
+    "related_parts": ["PS11746240"]
+  },
+  {
+    "id": "dishwasher-rack-issues",
+    "appliance": "dishwasher",
+    "title": "Dish Rack Won't Roll or Stay Level",
+    "symptoms": ["rack won't roll", "upper rack falling", "rack off track", "broken rack wheel"],
+    "user_phrasings": [
+      "my dishwasher rack won't roll smoothly",
+      "upper rack keeps falling down",
+      "rack came off the track",
+      "rack wheel broke",
+      "lower rack drags and tips",
+      "the top rack won't stay level"
+    ],
+    "content": "Rack problems are mechanical and usually quick to fix:\n\n1. **Rack rollers / wheels** – Worn or broken rollers make the rack drag, tip, or jump the track. Replace the affected wheels or roller kit.\n2. **Upper rack adjusters** – If the upper rack sags or falls, the adjuster mechanism on one or both sides has likely broken. Replace the adjuster kit (left and right).\n3. **Rack stops / end caps** – Missing end caps let the rack roll all the way off the rails. Replace them to keep the rack captured.\n4. **Realign the rails** – Make sure the rails are seated correctly before installing new parts.",
+    "related_parts": ["PS11746337", "PS11722152", "PS11689058"]
+  },
+  {
+    "id": "dishwasher-bad-odor",
+    "appliance": "dishwasher",
+    "title": "Dishwasher Smells Bad",
+    "symptoms": ["bad odor", "smell", "clogged filter", "musty dishwasher"],
+    "user_phrasings": [
+      "my dishwasher smells bad",
+      "musty smell from the dishwasher",
+      "rotten food odor in the dishwasher",
+      "stinky dishwasher even after running",
+      "bad smell when I open the dishwasher",
+      "dishwasher has a funky odor"
+    ],
+    "content": "Odors come from trapped food and standing moisture:\n\n1. **Clean the filter** – A clogged filter is the most common source of smell. Remove it and wash it in warm soapy water.\n2. **Wipe the door and gasket** – Food and grime collect in the door edges and gasket folds. Clean them with a damp cloth.\n3. **Run a cleaning cycle** – Run an empty hot cycle with a dishwasher cleaner or a cup of white vinegar on the top rack.\n4. **Check the drain** – Lingering standing water (a partial drain clog) breeds odor; clear any drain blockage.\n5. **Spray arms** – Clean clogged spray-arm holes so the tub rinses fully.",
+    "related_parts": ["PS11703460"]
+  }
+]
