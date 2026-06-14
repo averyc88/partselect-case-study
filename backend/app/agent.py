@@ -17,6 +17,7 @@ are removed — swap the model and drop `temperature` together if upgrading.
 """
 
 import json
+from collections.abc import Iterator
 
 import anthropic
 
@@ -86,3 +87,64 @@ def run(messages: list[dict], system: str) -> dict:
         "me the part or model number?",
         "cards": cards,
     }
+
+
+# Event shapes yielded by stream():
+#   {"type": "text", "delta": str}          — a chunk of the final answer
+#   {"type": "card", "kind": str, "payload": ...}  — a structured card to render
+_FALLBACK_TEXT = (
+    "Sorry — I wasn't able to finish that. Could you rephrase or give me the "
+    "part or model number?"
+)
+
+
+def stream(messages: list[dict], system: str) -> Iterator[dict]:
+    """Run the tool-use loop, yielding text deltas and cards as they happen.
+
+    Same orchestration as `run()`, but each API call is streamed so the final
+    answer reaches the UI token-by-token. Tool-calling turns produce no
+    user-visible text deltas (the model is just routing); when it runs a tool we
+    emit the card immediately, then loop. The last turn — Claude's actual answer
+    — streams its text. `main.py` serializes each yielded event to one NDJSON
+    line.
+    """
+    convo = list(messages)
+
+    for _ in range(MAX_ITERATIONS):
+        with _client.messages.stream(
+            model=config.ANTHROPIC_MODEL,
+            max_tokens=1024,
+            temperature=0,
+            system=system,
+            tools=tools.SCHEMAS,
+            messages=convo,
+        ) as stream_ctx:
+            # Stream text as it arrives. On a tool-use turn there's usually none.
+            for delta in stream_ctx.text_stream:
+                yield {"type": "text", "delta": delta}
+            response = stream_ctx.get_final_message()
+
+        if response.stop_reason != "tool_use":
+            return  # text already streamed above; we're done
+
+        convo.append({"role": "assistant", "content": response.content})
+
+        tool_results = []
+        for block in response.content:
+            if block.type != "tool_use":
+                continue
+            result, card = tools.dispatch(block.name, dict(block.input))
+            if card:
+                yield {"type": "card", "kind": card["kind"], "payload": card["payload"]}
+            tool_results.append(
+                {
+                    "type": "tool_result",
+                    "tool_use_id": block.id,
+                    "content": json.dumps(result),
+                    "is_error": "error" in result,
+                }
+            )
+
+        convo.append({"role": "user", "content": tool_results})
+
+    yield {"type": "text", "delta": _FALLBACK_TEXT}
