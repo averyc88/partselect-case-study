@@ -45,12 +45,6 @@ Open **http://localhost:3000**.
 - *"What's the status of order PS-100234?"*
 - *"Write me a poem."* → politely declined (out of scope)
 
-## Tests
-
-```bash
-cd backend && uv run pytest
-```
-
 ## A note on the data
 
 The catalog is **curated mock JSON** (`backend/data/`), committed so nothing is

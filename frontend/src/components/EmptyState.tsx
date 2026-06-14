@@ -13,9 +13,6 @@ const SUGGESTIONS = [
 export default function EmptyState({ onPick }: { onPick: (text: string) => void }) {
   return (
     <div className="flex flex-col items-center py-16 text-center">
-      <div className="mb-4 inline-flex h-14 w-14 items-center justify-center rounded-2xl bg-teal-tint text-2xl">
-        🧊
-      </div>
       <h1 className="text-2xl font-extrabold tracking-tight text-ink">
         How can I help with your appliance?
       </h1>

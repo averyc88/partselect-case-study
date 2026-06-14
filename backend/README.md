@@ -30,12 +30,6 @@ curl localhost:8000/health
 # {"status":"ok","model":"claude-sonnet-4-6","api_key_set":true}
 ```
 
-## Tests
-
-```bash
-uv run pytest -v   # ~106 tests; retrieval/agent tests skip if .chroma or an API key is absent
-```
-
 ## Layout
 
 ```
