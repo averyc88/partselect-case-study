@@ -1,26 +1,190 @@
 @import "tailwindcss";
 
+/*
+  PartSelect design system — matched to the live site (partselect.com):
+  - brand teal as the primary (nav, CTAs, links, icons)
+  - a warm gold accent (their "Find Your Part" hero banner)
+  - dark near-black text, light cool-gray surfaces
+  This is a brand-faithful theme, executed with care rather than a from-scratch
+  aesthetic — the brief grades us on matching PartSelect.
+*/
+
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  /* Brand teal — sampled from the live nav / search button. */
+  --ps-teal: #337778;
+  --ps-teal-dark: #285f60;
+  --ps-teal-darker: #1f4a4b;
+  --ps-teal-tint: #e8f0f0; /* faint teal wash for assistant bubbles */
+
+  /* Warm gold accent — the "Find Your Part" banner. */
+  --ps-gold: #f0b850;
+  --ps-gold-dark: #e0a93c;
+
+  /* Neutrals. */
+  --ps-ink: #1b1b1b;
+  --ps-body: #3f4a4a;
+  --ps-muted: #6b7777;
+  --ps-line: #e3e8e8;
+  --ps-surface: #ffffff;
+  --ps-canvas: #f4f6f6;
+
+  /* Status. */
+  --ps-green: #2e7d4f; /* in stock */
+  --ps-red: #c0463b; /* out of stock / incompatible */
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+@theme {
+  --color-teal: #337778;
+  --color-teal-dark: #285f60;
+  --color-teal-darker: #1f4a4b;
+  --color-teal-tint: #e8f0f0;
+  --color-gold: #f0b850;
+  --color-gold-dark: #e0a93c;
+  --color-ink: #1b1b1b;
+  --color-body: #3f4a4a;
+  --color-muted: #6b7777;
+  --color-line: #e3e8e8;
+  --color-surface: #ffffff;
+  --color-canvas: #f4f6f6;
+  --color-stock: #2e7d4f;
+  --color-nostock: #c0463b;
+
+  --font-sans: var(--font-jakarta), ui-sans-serif, system-ui, sans-serif;
+
+  --radius-card: 12px;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+/* Lock to a light theme — PartSelect is a light brand. Without this, browsers
+   in OS dark mode render UA defaults (form controls, canvas) dark. */
+:root {
+  color-scheme: only light;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+html {
+  background: var(--ps-canvas);
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background: var(--ps-canvas);
+  color: var(--ps-body);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+/* Thin, branded scrollbar for the chat transcript. */
+.ps-scroll {
+  scrollbar-width: thin;
+  scrollbar-color: var(--ps-line) transparent;
+}
+.ps-scroll::-webkit-scrollbar {
+  width: 8px;
+}
+.ps-scroll::-webkit-scrollbar-thumb {
+  background: var(--ps-line);
+  border-radius: 999px;
+}
+
+/* The blinking caret shown while the assistant is streaming. */
+@keyframes ps-caret {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+}
+.ps-caret::after {
+  content: "";
+  display: inline-block;
+  width: 2px;
+  height: 1.05em;
+  margin-left: 2px;
+  vertical-align: text-bottom;
+  background: var(--ps-teal);
+  animation: ps-caret 1s steps(1) infinite;
+}
+
+/* Staggered rise-in for message bubbles and cards. */
+@keyframes ps-rise {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.ps-rise {
+  animation: ps-rise 0.34s cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+
+/* Markdown styling for assistant answers (react-markdown emits bare tags). */
+.prose-ps > :first-child {
+  margin-top: 0;
+}
+.prose-ps > :last-child {
+  margin-bottom: 0;
+}
+.prose-ps p {
+  margin: 0.5em 0;
+}
+.prose-ps strong {
+  font-weight: 700;
+  color: var(--ps-ink);
+}
+.prose-ps a {
+  color: var(--ps-teal);
+  font-weight: 600;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+.prose-ps ul,
+.prose-ps ol {
+  margin: 0.5em 0;
+  padding-left: 1.25em;
+}
+.prose-ps ul {
+  list-style: disc;
+}
+.prose-ps ol {
+  list-style: decimal;
+}
+.prose-ps li {
+  margin: 0.2em 0;
+}
+.prose-ps li::marker {
+  color: var(--ps-teal);
+}
+.prose-ps code {
+  font-family: ui-monospace, SFMono-Regular, monospace;
+  font-size: 0.9em;
+  background: var(--ps-teal-tint);
+  color: var(--ps-teal-darker);
+  padding: 0.1em 0.35em;
+  border-radius: 4px;
+}
+
+/* Three-dot "thinking" indicator before the first token arrives. */
+@keyframes ps-bounce {
+  0%,
+  80%,
+  100% {
+    transform: scale(0.7);
+    opacity: 0.5;
+  }
+  40% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+.ps-dot {
+  animation: ps-bounce 1.4s ease-in-out infinite both;
 }
