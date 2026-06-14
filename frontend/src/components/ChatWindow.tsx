@@ -20,10 +20,45 @@ export default function ChatWindow() {
   const [error, setError] = useState<string | null>(null);
   const scrollRef = useRef<HTMLDivElement>(null);
 
+  // Typewriter buffer: the SDK delivers text in uneven bursts, so we queue
+  // incoming chars and drain them at a steady cadence for a smooth reveal,
+  // decoupling render speed from network timing.
+  const pending = useRef("");
+  const draining = useRef(false);
+
   // Keep the latest turn in view as content streams in.
   useEffect(() => {
     scrollRef.current?.scrollTo({ top: scrollRef.current.scrollHeight, behavior: "smooth" });
   }, [messages, streaming]);
+
+  // Drain the buffer a few chars per animation frame into the message state.
+  function startDrain() {
+    if (draining.current) return;
+    draining.current = true;
+    const tick = () => {
+      if (pending.current.length === 0) {
+        draining.current = false;
+        return;
+      }
+      // ~2 chars/frame ≈ a relaxed typing pace at 60fps; scales up gently if a
+      // big burst piles up so we never fall far behind the actual response.
+      const n = Math.max(2, Math.ceil(pending.current.length / 22));
+      const chunk = pending.current.slice(0, n);
+      pending.current = pending.current.slice(n);
+      commitText(chunk);
+      requestAnimationFrame(tick);
+    };
+    requestAnimationFrame(tick);
+  }
+
+  // Wait for the buffer to fully render — used before a card or at end-of-turn
+  // so text and cards stay in the order the backend emitted them.
+  function flushPending(): Promise<void> {
+    return new Promise((resolve) => {
+      const check = () => (pending.current.length === 0 ? resolve() : requestAnimationFrame(check));
+      check();
+    });
+  }
 
   async function send(text: string) {
     const trimmed = text.trim();
@@ -48,12 +83,18 @@ export default function ChatWindow() {
     try {
       for await (const event of streamChat(history)) {
         if (event.type === "text") {
-          appendText(event.delta);
+          pending.current += event.delta;
+          startDrain();
         } else if (event.type === "card") {
+          // Let queued text finish rendering so order is preserved.
+          await flushPending();
           appendCard(event.kind, event.payload);
         }
       }
+      // Render any text still in the buffer before clearing the streaming caret.
+      await flushPending();
     } catch {
+      pending.current = ""; // discard any buffered text from the failed turn
       setError("Sorry — something went wrong reaching the assistant. Please try again.");
       // Drop the empty assistant turn we optimistically added.
       setMessages((prev) => {
@@ -67,9 +108,9 @@ export default function ChatWindow() {
     }
   }
 
-  // Append a text delta to the assistant's trailing text block, opening a new
+  // Commit a drained chunk to the assistant's trailing text block, opening a new
   // one if the last block was a card (so text after a card renders separately).
-  function appendText(delta: string) {
+  function commitText(delta: string) {
     setMessages((prev) => {
       const next = [...prev];
       const msg = { ...next[next.length - 1] };
