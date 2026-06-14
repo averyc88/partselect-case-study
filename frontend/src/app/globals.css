@@ -126,6 +126,26 @@ body {
   animation: ps-rise 0.34s cubic-bezier(0.22, 1, 0.36, 1) both;
 }
 
+/* Stagger utilities: pair with .ps-rise for a cascading reveal. */
+.ps-delay-1 {
+  animation-delay: 60ms;
+}
+.ps-delay-2 {
+  animation-delay: 120ms;
+}
+.ps-delay-3 {
+  animation-delay: 180ms;
+}
+.ps-delay-4 {
+  animation-delay: 240ms;
+}
+.ps-delay-5 {
+  animation-delay: 300ms;
+}
+.ps-delay-6 {
+  animation-delay: 360ms;
+}
+
 /* Markdown styling for assistant answers (react-markdown emits bare tags). */
 .prose-ps > :first-child {
   margin-top: 0;

@@ -13,20 +13,20 @@ const SUGGESTIONS = [
 export default function EmptyState({ onPick }: { onPick: (text: string) => void }) {
   return (
     <div className="flex flex-col items-center py-16 text-center">
-      <h1 className="text-2xl font-extrabold tracking-tight text-ink">
+      <h1 className="ps-rise text-2xl font-extrabold tracking-tight text-ink">
         How can I help with your appliance?
       </h1>
-      <p className="mt-2 max-w-md text-[15px] leading-relaxed text-body">
+      <p className="ps-rise ps-delay-1 mt-2 max-w-md text-[15px] leading-relaxed text-body">
         Find parts, check if they fit your model, troubleshoot a problem, or look up an order — for
         your refrigerator or dishwasher.
       </p>
 
       <div className="mt-8 grid w-full max-w-xl grid-cols-1 gap-2.5 sm:grid-cols-2">
-        {SUGGESTIONS.map((s) => (
+        {SUGGESTIONS.map((s, i) => (
           <button
             key={s}
             onClick={() => onPick(s)}
-            className="group rounded-card border border-line bg-surface px-4 py-3 text-left text-[14px] font-medium text-body shadow-sm transition-all hover:-translate-y-0.5 hover:border-teal hover:shadow-md"
+            className={`ps-rise ps-delay-${i + 2} group rounded-card border border-line bg-surface px-4 py-3 text-left text-[14px] font-medium text-body shadow-sm transition-all hover:-translate-y-0.5 hover:border-teal hover:shadow-md`}
           >
             <span className="text-teal transition-colors group-hover:text-teal-dark">›</span>{" "}
             {s}
