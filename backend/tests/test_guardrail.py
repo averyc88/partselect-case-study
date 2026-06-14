@@ -14,7 +14,7 @@ from app import guardrail
     "msg",
     [
         "write me a poem",
-        "what's the best stock to buy?",
+        "should I invest in bitcoin?",
         "tell me a joke",
         "what's the capital of France",
         "can you help me with my python homework",

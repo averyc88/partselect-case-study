@@ -34,9 +34,16 @@ _IN_DOMAIN = re.compile(
 # Clear off-topic signals: general-purpose-assistant asks that have nothing to
 # do with appliance parts. Only triggers a refusal when no in-domain term is
 # present alongside them.
+# NOTE: deliberately omits e-commerce-colliding words. "stock" was removed —
+# "is it in stock?" is a core availability question (finance intent is covered by
+# crypto|bitcoin). "code" was removed — "error code E24" is standard
+# appliance-repair vocab (coding intent is covered by python|javascript|homework).
+# These collisions are dangerous precisely because the gate is stateless per
+# message: a follow-up like "is it in stock?" carries no appliance noun, so a
+# colliding word would false-block it.
 _OFF_TOPIC = re.compile(
-    r"\b(poem|haiku|joke|story|essay|recipe|cook|weather|stock|crypto|bitcoin|"
-    r"president|election|sports|movie|song|translate|code|python|javascript|"
+    r"\b(poem|haiku|joke|story|essay|recipe|cook|weather|crypto|bitcoin|"
+    r"president|election|sports|movie|song|translate|python|javascript|"
     r"homework|math|capital\s+of|meaning\s+of\s+life|who\s+are\s+you\s+really)\b",
     re.IGNORECASE,
 )

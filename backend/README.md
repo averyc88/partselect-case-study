@@ -1,7 +1,7 @@
 # PartSelect Chat Agent — Backend
 
 FastAPI backend running a Claude tool-calling agent for PartSelect refrigerator
-and dishwasher parts. See the root `PLAN.md` for full architecture.
+and dishwasher parts. See the root [`README.md`](../README.md) for the overview.
 
 ## Setup
 
@@ -33,24 +33,25 @@ curl localhost:8000/health
 ## Tests
 
 ```bash
-uv run pytest -v   # 95 tests; retrieval tests skip if .chroma isn't built yet
+uv run pytest -v   # ~106 tests; retrieval/agent tests skip if .chroma or an API key is absent
 ```
 
 ## Layout
 
 ```
 app/
-  main.py         FastAPI app, CORS, /health (and /chat, in progress)
+  main.py         FastAPI app, CORS, /chat (NDJSON stream), /health
   config.py       env / .env loading
-  data_access.py  deterministic exact lookups over the JSON catalog
-  embedder.py     swappable embedding interface (local MiniLM default)
-  retrieval.py    Chroma semantic search over the repair corpus
+  agent.py        Claude tool-calling loop (run + stream)
   tools.py        tool registry: schema + handler + card, with dispatch()
+  prompts.py      system prompt (scope, grounding, persona)
   guardrail.py    cheap off-topic pre-check
-  prompts.py      system prompt              (in progress)
-  agent.py        Claude tool-calling loop   (in progress)
+  retrieval.py    Chroma semantic search over the repair corpus
+  embedder.py     swappable embedding interface (local MiniLM default)
+  data_access.py  deterministic exact lookups over the JSON catalog
+  models.py       Pydantic request models
 data/             curated parts/repairs/models/orders JSON (committed)
 scripts/
   ingest.py       seed the Chroma index from repairs.json
-tests/            pytest — data integrity, data access, retrieval, tools, guardrail
+tests/            pytest — data integrity, data access, retrieval, tools, guardrail, agent, api
 ```
