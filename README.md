@@ -48,13 +48,10 @@ Open **http://localhost:3000**.
 ## A note on the data
 
 The catalog is **curated mock JSON** (`backend/data/`), committed so nothing is
-fetched at runtime. It's anchored on **real identifiers** (all model numbers, the
-brief's part PS11752778, most part/manufacturer numbers) so the example queries
-work against authentic data. Prices, stock, and the orders are fabricated but
-internally consistent — the orders demonstrate the transaction flows across every
-status and eligibility case. The data layer sits behind a single module, so
-swapping in a real catalog API or database is a one-file change.
+fetched at runtime. It's anchored on mostly **real identifiers**. Prices, stock, 
+and the orders are fabricated but internally consistent — the orders demonstrate 
+the transaction flows across every status and eligibility case. The data layer 
+sits behind a single module, so swapping in a real catalog API or database is a 
+one-file change.
 
-Card links point to `partselect.com` rather than deep product URLs (only
-PS11752778 resolves live, and the site blocks bots, so a deep-link scheme can't
-be verified).
+Card links point to `partselect.com`.
